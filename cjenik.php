@@ -1,5 +1,5 @@
 <?php
-$godinaCjenka = 2026;
+$godinaCjenika = 2026;
 ?>
 <!DOCTYPE html>
 <html lang="hr">
