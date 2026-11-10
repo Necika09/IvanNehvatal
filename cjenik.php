@@ -1,22 +1,9 @@
-<?php
-$godinaCjenika = 2026;
+<?php 
+    $naslovStranice='Cjenik';
+    $klasaPocetna="";
+    $klasaCjenik="aktivna";
+    require "dijelovi/zaglavlje.php";
 ?>
-<!DOCTYPE html>
-<html lang="hr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teretana Šampion | Cjenik</title>
-    <link rel="stylesheet" href="stil.css">
-</head>
-<body>
-<header>
-    <p class="logo">Teretana Šampion</p>
-    <nav>
-        <a href="index.php">Početna</a>
-        <a href="cjenik.php">Cjenik</a>
-    </nav>
-</header>
 <main>
     <h1>Članarine i cijene</h1>
     <p>Cijene vrijede za <?php echo $godinaCjenika; ?>. godinu.</p>
@@ -59,8 +46,4 @@ $godinaCjenika = 2026;
     </table>
     <p>Cijene ažurirane: [DANAŠNJI DATUM]</p>
 </main>
-<footer>
-    <p>© [GODINA] Teretana Šampion · Daruvar</p>
-</footer>
-</body>
-</html>
+<?php require "dijelovi/podnozje.php"; ?>
